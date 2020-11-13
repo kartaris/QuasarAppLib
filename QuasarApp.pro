@@ -12,6 +12,9 @@ CONFIG += c++17
 TARGET = QuasarApp
 TEMPLATE = lib
 
+target.path = /usr/lib64/
+INSTALLS += target
+
 DEFINES += QUASARAPP_LIBRARY
 
 # The following define makes your compiler emit warnings if you use
